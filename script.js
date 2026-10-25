@@ -44,10 +44,7 @@ function computerPlay() {
   }
   
   function game() {
-    const playerSelection = prompt("Enter rock, paper, or scissors:").toLowerCase();
-    const computerSelection = computerPlay();
-    const result = playRound(playerSelection, computerSelection);
-    alert(result);
+    playGame();
   }
   
   game();       
