@@ -1,0 +1,14 @@
+.btn{
+    display: flex;
+    gap: 3 em;
+    font-size: 12em;
+    margin: auto;
+    background-color: #083551;
+}
+#result{
+    display: flex;
+    gap: 3 em;
+    font-size: 12em;
+    margin: auto;
+    background-color: #5f5de4;
+}
