@@ -1,14 +1,37 @@
-.btn{
-    display: flex;
-    gap: 3 em;
-    font-size: 12em;
-    margin: auto;
-    background-color: #083551;
+body {
+    max-width: 24rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font: 1rem/1.5 system-ui, sans-serif;
 }
-#result{
-    display: flex;
-    gap: 3 em;
-    font-size: 12em;
-    margin: auto;
-    background-color: #5f5de4;
+
+.btn {
+    width: 100%;
+    margin-bottom: 0.75rem;
+    padding: 0.65rem 1rem;
+    border: 0;
+    border-radius: 0.4rem;
+    background-color: #083551;
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:focus-visible {
+    outline: 2px solid #5f5de4;
+    outline-offset: 2px;
+}
+
+#result {
+    margin: 0.5rem 0 0;
+    padding: 0.75rem 1rem;
+    border-radius: 0.4rem;
+    background-color: #eeedff;
+    color: #25235c;
+    text-align: center;
+}
+
+#result:empty {
+    display: none;
 }
